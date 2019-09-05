@@ -1,3 +1,6 @@
 body {
   background-image: url(/assets/images/crystals-wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
 }
+

@@ -1,122 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collector Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    
+
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron jumbotron-fluid bg-transparent text-white">
             <div class="container">
-              <h1 class="display-4 text-center">Crystals Collector!</h1>
-              <br>
-              <br>
-              <div class="directions">
-                    <h2>Directions to play:</h2>
-                    <p>
-                        You will be assigned a random number at the start of the game.
-                    </p>
-            
-                    <p>
-                        There are four crystals below.<br>
-                        When you click on a crystal you will add a specific amount of points to your total score.
-                    </p>
-            
-                    <ul>
-                        <li>
-                            You win the game by matching your total score to the random number. 
-                        </li>
-                        <li>
-                            You lose the game if your total score goes above the random number.
-                        </li>
-                    </ul>
-            
-                    <p>
-                        The value of each crystal is hidden from you until you click on it.<br>
-                        Each time the game starts, the values of each crystal will change.
-                    </p>
-                    <br>
-                    
+                <h1 class="display-4 text-center">Crystals Collector!</h1>
+                <br>
+                <br>
+                <div class="directions">
                     <h2>
-                        ~ Good Luck ~
+                        Directions to play:
                     </h2>
+                        <p>
+                            You will be assigned a random number at the start of the game.
+                        </p>
+                        <p>
+                            There are four crystals below.<br>
+                            When you click on a crystal you will add a specific amount of points to your total score.
+                        </p>
+                            <ul>
+                                <li>
+                                    You win the game by matching your total score to the random number.
+                                </li>
+                                <li>
+                                    You lose the game if your total score goes above the random number.
+                                </li>
+                            </ul>
+                        <p>
+                            The value of each crystal is hidden from you until you click on it.<br>
+                            Each time the game starts, the values of each crystal will change.
+                        </p>
+                        <br>
+                        <h2>
+                            ~ Good Luck ~
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card random-number text-black height: 100px pl-3 pt-3 pb-5">
+                        "Placeholder for Random Number"
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <div class="card counter text-black height: 100px pl-3 pt-3">
+                        <p>Wins:</p>
+                        <p>Losses:</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <br>
+        <div class="container m-3 row">
+                    <button id="crystals1" type="button" class="btn btn-outline-light mr-3">
+                        <img src="/assets/images/001-crystal.png" alt="crystal001" class="img-thumbnail">
+                    </button>
+                    
+                    <button id="crystals2" type="button" class="btn btn-outline-light mr-3">
+                        <img src="/assets/images/002-mineral.png" alt="mineral002" class="img-thumbnail">                        
+                    </button>
+                    
+                    <button id="crystals3" type="button" class="btn btn-outline-light mr-3">
+                        <img src="/assets/images/003-crystal-1.png" alt="crystal003" class="img-thumbnail">
+                    </button>
 
-    <div class="container">
+                    <button id="crystals4" type="button" class="btn btn-outline-light">
+                        <img src="/assets/images/005-crystal-2.png" alt="crystal005" class="img-thumbnail">
+                    </button>
+        </div>
+
+        <div class="container mb-5">
         <div class="row">
             <div class="col-md-4">
                 <div class="card random-number text-black height: 100px">
-                    "Placeholder for Random Number"
+                    <p>Score</p>
                 </div>
             </div>
-        <br>
+                <br>
             <div class="col-md-4">
                 <div class="card counter text-black height: 100px">
-                    <p>Wins:</p>
-                    <p>Losses:</p>
+                    <p>Score Sum</p>
                 </div>
             </div>
         </div>
-
-
-    </div>
-    <br>
-
-    <div class="container m-3">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="crystals">
-                    <a href ="https://placeholder.com"><img src="https://via.placeholder.com/200"></a>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="crystals">
-                    <a href ="https://placeholder.com"><img src="https://via.placeholder.com/200"></a>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="crystals">
-                    <a href ="https://placeholder.com"><img src="https://via.placeholder.com/200"></a>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="crystals">
-                    <a href ="https://placeholder.com"><img src="https://via.placeholder.com/200"></a>
-                </div>
-            </div>
         </div>
-    </div>
 
-    <div class="container mb-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card random-number text-black height: 100px">
-                        <p>Score</p>
-                    </div>
-                </div>
-            <br>
-                <div class="col-md-4">
-                    <div class="card counter text-black height: 100px">
-                        <p>Score Sum</p>
-                    </div>
-                </div>
-            </div>
+        <script src="/assets/javascript/game.js">
 
+$("#crystals1").on("click", function(){
+    alert("test");
 
-    </div>
+})
 
-    <script src="/assets/javascript/game.js">
-    </script>
+        </script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
