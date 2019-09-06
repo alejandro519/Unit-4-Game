@@ -5,8 +5,7 @@
 // var scoreCounter = 0;
 // var scoreSum = 0;
 
-$("#crystals1").on("click", function(){
+// $("#crystals1").on("click", function(){
     alert("test");
 
-})
-  
+// })
